@@ -97,7 +97,7 @@
                 <repository>
                     <id>github</id>
                     <name>GitHub OWNER Apache Maven Packages</name>
-                    <url>https://maven.pkg.github.com/zetta-biz/sii-schemas-lib-java</url>
+                    <url>https://maven.pkg.github.com/zetta-biz/sii-dte-lib-java</url>
                 </repository>
             </distributionManagement>
         </profile>
