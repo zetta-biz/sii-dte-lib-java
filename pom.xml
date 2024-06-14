@@ -50,6 +50,12 @@
             <artifactId>jaxb-impl</artifactId>
             <version>${jakarta.xml.bind-api.version}</version>
         </dependency>
+        <dependency>
+            <groupId>net.datafaker</groupId>
+            <artifactId>datafaker</artifactId>
+            <version>1.9.0</version>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
 
     <build>
