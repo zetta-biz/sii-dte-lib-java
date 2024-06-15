@@ -13,6 +13,8 @@ jobs:
     steps:
       - name: Deploy JavaDoc 🚀
         uses: MathieuSoysal/Javadoc-publisher.yml@v2.5.0
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           javadoc-branch: gh-pages
